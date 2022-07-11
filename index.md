@@ -1,6 +1,6 @@
 ---
 layout: index
-title: "this is testing"
+title: "home page"
 ---
 
-# This is test
+# This is home page
