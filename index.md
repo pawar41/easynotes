@@ -1,13 +1,6 @@
 ---
-
 layout: index
-
+title: "this is testing"
 ---
 
-# This is Test
-
-{{ "Hello World!" | downcase }}
-
-hellopaea i an
-sc test paea.
-{: #myid .my-class}
+# This is test
