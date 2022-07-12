@@ -18,8 +18,8 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-baseurl: /easynotes
-url: "https://pawar41.github.io/easynotes"
+baseurl: "/easynotes"
+url: "https://pawar41.github.io"
 
 #--------------------------------------------------------------------------
 
