@@ -1,0 +1,6605 @@
+courses:
+    - name: ENTC
+      semister:
+        - number: 1
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 2
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 3
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 4
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 5
+          subject:
+            - name: Digital Communication
+              code: 304181
+              units: 
+                - number: 1
+                  name: Random Processes & Noise
+
+                - number: 2
+                  name: Digital Modulation-I
+
+                - number: 3
+                  name: Digital Modulation-II
+
+                - number: 4
+                  name: Spread Spectrum Modulation
+
+                - number: 5
+                  name: Information Theoretic Approach to Communication System
+
+                - number: 6
+                  name: Error-Control Coding
+
+            - name: Electromagnetic Field Theory
+              code: 304182
+              units: 
+                - number: 1
+                  name: Electrostatics
+
+                - number: 2
+                  name: Magneto statics
+
+                - number: 3
+                  name: Boundary Conditions
+
+                - number: 4
+                  name: Time Varying Electromagnetic Fields (Maxwell Equations)
+
+                - number: 5
+                  name: Uniform Plane Waves
+
+                - number: 6
+                  name: Transmission Line Theory
+
+            - name: Database Management
+              code: 304183
+              units: 
+                - number: 1
+                  name: Introduction to DBMS
+
+                - number: 2
+                  name: Relational Database Design
+
+                - number: 3
+                  name: Basics of SQL
+
+                - number: 4
+                  name: Database Transactions Management
+
+                - number: 5
+                  name: Parallel Databases
+
+                - number: 6
+                  name: Distributed Databases
+
+            - name: Microcontrollers
+              code: 304184
+              units: 
+                - number: 1
+                  name: Introduction to Microcontroller Architecture
+
+                - number: 2
+                  name: IO Port Interfacing-I
+
+                - number: 3
+                  name: PIC 18F XXXX Microcontroller Architecture
+
+                - number: 4
+                  name: Peripheral Support in PIC 18FXXXX
+
+                - number: 5
+                  name: Real Word Interfacing With 18FXXXX
+
+                - number: 6
+                  name: Serial Port Programming interfacing with 18FXXXX
+
+            - name: Fundamentals of JAVA Programming
+              code: 304185
+              units: 
+                - number: 1
+                  name: JAVA Fundamentals
+
+                - number: 2
+                  name: Classes and Objects
+
+                - number: 3
+                  name: Methods & Inheritance in JAVA
+
+                - number: 4
+                  name: Interfaces & Packages
+
+                - number: 5
+                  name: Multithreading & Exception Handling
+
+                - number: 6
+                  name: Graphics Programming and File Handling
+
+        - number: 6
+          subject:
+            - name: Cellular Networks
+              code: 304192
+              units: 
+                - number: 1
+                  name: Introduction of Wireless Channel
+
+                - number: 2
+                  name: Orthogonal Frequency Division Multiplexing
+
+                - number: 3
+                  name: Introduction to Mobile Communication
+
+                - number: 4
+                  name: Wireless System Planning
+
+                - number: 5
+                  name: Wireless and Mobile Technologies and Protocols and their performance evaluation
+
+                - number: 6
+                  name: Performance Analysis Issues
+            
+            - name: Project Management
+              code: 304193
+              units: 
+                - number: 1
+                  name: Fundamentals of Project Management
+
+                - number: 2
+                  name: Project Identification, Selection & Planning
+
+                - number: 3
+                  name: Project Organizational structure & Issues
+
+                - number: 4
+                  name: Project Scheduling
+
+                - number: 5
+                  name: Project Risk & Financial Management
+
+                - number: 6
+                  name: Product Development & Entrepreneurship
+
+            - name: Power Devices & Circuits
+              code: 304194
+              units: 
+                - number: 1
+                  name: Study of Power Devices
+
+                - number: 2
+                  name: AC to DC Power Converters
+
+                - number: 3
+                  name: DC to AC Converters
+
+                - number: 4
+                  name: DC to DC Converters
+
+                - number: 5
+                  name: Power Devices Protection and Circuits
+
+                - number: 6
+                  name: Power Electronics Applications
+            
+            - name: Advanced JAVA Programming
+              code: 304195
+              units: 
+                - number: 1
+                  name: Applet
+
+                - number: 2
+                  name: Event Handling using AWT/Swing components
+
+                - number: 3
+                  name: GUI Programming
+
+                - number: 4
+                  name: Database Programming using JDBC
+
+                - number: 5
+                  name: Remote Method Invocation (RMI)
+
+                - number: 6
+                  name: Networking
+            
+        - number: 7
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 8
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+    - name: COMP
+      semister:
+        - number: 1
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 2
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 3
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 4
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 5
+          subject:
+            - name: Digital Communication
+              code: 304181
+              units: 
+                - number: 1
+                  name: Random Processes & Noise
+
+                - number: 2
+                  name: Digital Modulation-I
+
+                - number: 3
+                  name: Digital Modulation-II
+
+                - number: 4
+                  name: Spread Spectrum Modulation
+
+                - number: 5
+                  name: Information Theoretic Approach to Communication System
+
+                - number: 6
+                  name: Error-Control Coding
+
+            - name: Electromagnetic Field Theory
+              code: 304182
+              units: 
+                - number: 1
+                  name: Electrostatics
+
+                - number: 2
+                  name: Magneto statics
+
+                - number: 3
+                  name: Boundary Conditions
+
+                - number: 4
+                  name: Time Varying Electromagnetic Fields (Maxwell Equations)
+
+                - number: 5
+                  name: Uniform Plane Waves
+
+                - number: 6
+                  name: Transmission Line Theory
+
+            - name: Database Management
+              code: 304183
+              units: 
+                - number: 1
+                  name: Introduction to DBMS
+
+                - number: 2
+                  name: Relational Database Design
+
+                - number: 3
+                  name: Basics of SQL
+
+                - number: 4
+                  name: Database Transactions Management
+
+                - number: 5
+                  name: Parallel Databases
+
+                - number: 6
+                  name: Distributed Databases
+
+            - name: Microcontrollers
+              code: 304184
+              units: 
+                - number: 1
+                  name: Introduction to Microcontroller Architecture
+
+                - number: 2
+                  name: IO Port Interfacing-I
+
+                - number: 3
+                  name: PIC 18F XXXX Microcontroller Architecture
+
+                - number: 4
+                  name: Peripheral Support in PIC 18FXXXX
+
+                - number: 5
+                  name: Real Word Interfacing With 18FXXXX
+
+                - number: 6
+                  name: Serial Port Programming interfacing with 18FXXXX
+
+            - name: Fundamentals of JAVA Programming
+              code: 304185
+              units: 
+                - number: 1
+                  name: JAVA Fundamentals
+
+                - number: 2
+                  name: Classes and Objects
+
+                - number: 3
+                  name: Methods & Inheritance in JAVA
+
+                - number: 4
+                  name: Interfaces & Packages
+
+                - number: 5
+                  name: Multithreading & Exception Handling
+
+                - number: 6
+                  name: Graphics Programming and File Handling
+
+        - number: 6
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 7
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 8
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+      
+    - name: MECH
+      semister:
+        - number: 1
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 2
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 3
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 4
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 5
+          subject:
+            - name: Digital Communication
+              code: 304181
+              units: 
+                - number: 1
+                  name: Random Processes & Noise
+
+                - number: 2
+                  name: Digital Modulation-I
+
+                - number: 3
+                  name: Digital Modulation-II
+
+                - number: 4
+                  name: Spread Spectrum Modulation
+
+                - number: 5
+                  name: Information Theoretic Approach to Communication System
+
+                - number: 6
+                  name: Error-Control Coding
+
+            - name: Electromagnetic Field Theory
+              code: 304182
+              units: 
+                - number: 1
+                  name: Electrostatics
+
+                - number: 2
+                  name: Magneto statics
+
+                - number: 3
+                  name: Boundary Conditions
+
+                - number: 4
+                  name: Time Varying Electromagnetic Fields (Maxwell Equations)
+
+                - number: 5
+                  name: Uniform Plane Waves
+
+                - number: 6
+                  name: Transmission Line Theory
+
+            - name: Database Management
+              code: 304183
+              units: 
+                - number: 1
+                  name: Introduction to DBMS
+
+                - number: 2
+                  name: Relational Database Design
+
+                - number: 3
+                  name: Basics of SQL
+
+                - number: 4
+                  name: Database Transactions Management
+
+                - number: 5
+                  name: Parallel Databases
+
+                - number: 6
+                  name: Distributed Databases
+
+            - name: Microcontrollers
+              code: 304184
+              units: 
+                - number: 1
+                  name: Introduction to Microcontroller Architecture
+
+                - number: 2
+                  name: IO Port Interfacing-I
+
+                - number: 3
+                  name: PIC 18F XXXX Microcontroller Architecture
+
+                - number: 4
+                  name: Peripheral Support in PIC 18FXXXX
+
+                - number: 5
+                  name: Real Word Interfacing With 18FXXXX
+
+                - number: 6
+                  name: Serial Port Programming interfacing with 18FXXXX
+
+            - name: Fundamentals of JAVA Programming
+              code: 304185
+              units: 
+                - number: 1
+                  name: JAVA Fundamentals
+
+                - number: 2
+                  name: Classes and Objects
+
+                - number: 3
+                  name: Methods & Inheritance in JAVA
+
+                - number: 4
+                  name: Interfaces & Packages
+
+                - number: 5
+                  name: Multithreading & Exception Handling
+
+                - number: 6
+                  name: Graphics Programming and File Handling
+
+        - number: 6
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 7
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 8
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+      
+    - name: CIVIL
+      semister:
+        - number: 1
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 2
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 3
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 4
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 5
+          subject:
+            - name: Digital Communication
+              code: 304181
+              units: 
+                - number: 1
+                  name: Random Processes & Noise
+
+                - number: 2
+                  name: Digital Modulation-I
+
+                - number: 3
+                  name: Digital Modulation-II
+
+                - number: 4
+                  name: Spread Spectrum Modulation
+
+                - number: 5
+                  name: Information Theoretic Approach to Communication System
+
+                - number: 6
+                  name: Error-Control Coding
+
+            - name: Electromagnetic Field Theory
+              code: 304182
+              units: 
+                - number: 1
+                  name: Electrostatics
+
+                - number: 2
+                  name: Magneto statics
+
+                - number: 3
+                  name: Boundary Conditions
+
+                - number: 4
+                  name: Time Varying Electromagnetic Fields (Maxwell Equations)
+
+                - number: 5
+                  name: Uniform Plane Waves
+
+                - number: 6
+                  name: Transmission Line Theory
+
+            - name: Database Management
+              code: 304183
+              units: 
+                - number: 1
+                  name: Introduction to DBMS
+
+                - number: 2
+                  name: Relational Database Design
+
+                - number: 3
+                  name: Basics of SQL
+
+                - number: 4
+                  name: Database Transactions Management
+
+                - number: 5
+                  name: Parallel Databases
+
+                - number: 6
+                  name: Distributed Databases
+
+            - name: Microcontrollers
+              code: 304184
+              units: 
+                - number: 1
+                  name: Introduction to Microcontroller Architecture
+
+                - number: 2
+                  name: IO Port Interfacing-I
+
+                - number: 3
+                  name: PIC 18F XXXX Microcontroller Architecture
+
+                - number: 4
+                  name: Peripheral Support in PIC 18FXXXX
+
+                - number: 5
+                  name: Real Word Interfacing With 18FXXXX
+
+                - number: 6
+                  name: Serial Port Programming interfacing with 18FXXXX
+
+            - name: Fundamentals of JAVA Programming
+              code: 304185
+              units: 
+                - number: 1
+                  name: JAVA Fundamentals
+
+                - number: 2
+                  name: Classes and Objects
+
+                - number: 3
+                  name: Methods & Inheritance in JAVA
+
+                - number: 4
+                  name: Interfaces & Packages
+
+                - number: 5
+                  name: Multithreading & Exception Handling
+
+                - number: 6
+                  name: Graphics Programming and File Handling
+
+        - number: 6
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 7
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 8
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+      
+    - name: ELEC
+      semister:
+        - number: 1
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 2
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 3
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 4
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 5
+          subject:
+            - name: Digital Communication
+              code: 304181
+              units: 
+                - number: 1
+                  name: Random Processes & Noise
+
+                - number: 2
+                  name: Digital Modulation-I
+
+                - number: 3
+                  name: Digital Modulation-II
+
+                - number: 4
+                  name: Spread Spectrum Modulation
+
+                - number: 5
+                  name: Information Theoretic Approach to Communication System
+
+                - number: 6
+                  name: Error-Control Coding
+
+            - name: Electromagnetic Field Theory
+              code: 304182
+              units: 
+                - number: 1
+                  name: Electrostatics
+
+                - number: 2
+                  name: Magneto statics
+
+                - number: 3
+                  name: Boundary Conditions
+
+                - number: 4
+                  name: Time Varying Electromagnetic Fields (Maxwell Equations)
+
+                - number: 5
+                  name: Uniform Plane Waves
+
+                - number: 6
+                  name: Transmission Line Theory
+
+            - name: Database Management
+              code: 304183
+              units: 
+                - number: 1
+                  name: Introduction to DBMS
+
+                - number: 2
+                  name: Relational Database Design
+
+                - number: 3
+                  name: Basics of SQL
+
+                - number: 4
+                  name: Database Transactions Management
+
+                - number: 5
+                  name: Parallel Databases
+
+                - number: 6
+                  name: Distributed Databases
+
+            - name: Microcontrollers
+              code: 304184
+              units: 
+                - number: 1
+                  name: Introduction to Microcontroller Architecture
+
+                - number: 2
+                  name: IO Port Interfacing-I
+
+                - number: 3
+                  name: PIC 18F XXXX Microcontroller Architecture
+
+                - number: 4
+                  name: Peripheral Support in PIC 18FXXXX
+
+                - number: 5
+                  name: Real Word Interfacing With 18FXXXX
+
+                - number: 6
+                  name: Serial Port Programming interfacing with 18FXXXX
+
+            - name: Fundamentals of JAVA Programming
+              code: 304185
+              units: 
+                - number: 1
+                  name: JAVA Fundamentals
+
+                - number: 2
+                  name: Classes and Objects
+
+                - number: 3
+                  name: Methods & Inheritance in JAVA
+
+                - number: 4
+                  name: Interfaces & Packages
+
+                - number: 5
+                  name: Multithreading & Exception Handling
+
+                - number: 6
+                  name: Graphics Programming and File Handling
+
+        - number: 6
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 7
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+        - number: 8
+          subject:
+            - name: subject_name_1
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_2
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+
+            - name: subject_name_3
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_4
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_5
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+            
+            - name: subject_name_6
+              code: subject_code
+              units: 
+                - number: 1
+                  name: unit_name_1
+
+                - number: 2
+                  name: unit_name_2
+
+                - number: 3
+                  name: unit_name_3
+
+                - number: 4
+                  name: unit_name_4
+
+                - number: 5
+                  name: unit_name_5
+
+                - number: 6
+                  name: unit_name_6
+      
+
+course:
+  - COMP:
+    - 1:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1 
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6 
+
+      - subject_3:
+        - unit_1 
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6 
+
+      - subject_4:
+        - unit_1 
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6 
+
+      - subject_5:
+        - unit_1 
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6 
+
+    - 2:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 3:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 4:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 5:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 6:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 7:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 8:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+  - MECH:
+    - 1:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 2:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 3:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 4:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 5:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 6:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 7:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 8:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+  - ENTC:
+    - 1:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 2:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 3:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 4:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 5:
+      - 304181 Digital_Communication:
+        - unit 1 Random Processes & Noise
+        - unit 2 Digital Modulation-I
+        - unit 3 Digital Modulation-II
+        - unit 4 Spread Spectrum Modulation
+        - unit 5 Information Theoretic Approach to Communication System
+        - unit 6 Error-Control Coding
+
+      - 304182 Electromagnetic Field Theory:
+        - unit 1 Electrostatics
+        - unit 2 Magneto statics
+        - unit 3 Boundary Conditions
+        - unit 4 Time Varying Electromagnetic Fields (Maxwell Equations)
+        - unit 5 Uniform Plane Waves
+        - unit 6 Transmission Line Theory
+
+      - 304183 Database Management:
+        - unit 1 Introduction to DBMS
+        - unit 2 Relational Database Design
+        - unit 3 Basics of SQL
+        - unit 4 Database Transactions Management
+        - unit 5 Parallel Databases
+        - unit 6 Distributed Databases
+
+      - 304184 Microcontrollers:
+        - unit 1 Introduction to Microcontroller Architecture
+        - unit 2 IO Port Interfacing-I
+        - unit 3 PIC 18F XXXX Microcontroller Architecture
+        - unit 4 Peripheral Support in PIC 18FXXXX
+        - unit 5 Real Word Interfacing With 18FXXXX
+        - unit 6 Serial Port Programming interfacing with 18FXXXX
+
+      - 304185 Fundamentals of JAVA Programming:
+        - unit 1 JAVA Fundamentals
+        - unit 2 Classes and Objects
+        - unit 3 Methods & Inheritance in JAVA
+        - unit 4 Interfaces & Packages
+        - unit 5 Multithreading & Exception Handling
+        - unit 6 Graphics Programming and File Handling
+
+    - 6:
+      - 304192 Cellular Networks:
+        - unit 1 Introduction of Wireless Channel
+        - unit 2 Orthogonal Frequency Division Multiplexing
+        - unit 3 Introduction to Mobile Communication
+        - unit 4 Wireless System Planning
+        - unit 5 Wireless and Mobile Technologies and Protocols and their performance evaluation
+        - unit 6 Performance Analysis Issues
+
+      - 304193 Project Management:
+        - unit 1 Fundamentals of Project Management
+        - unit 2 Project Identification, Selection & Planning
+        - unit 3 Project Organizational structure & Issues
+        - unit 4 Project Scheduling
+        - unit 5 Project Risk & Financial Management
+        - unit 6 Product Development & Entrepreneurship
+
+      - 304194 Power Devices & Circuits:
+        - unit 1 Study of Power Devices
+        - unit 2 AC to DC Power Converters
+        - unit 3 DC to AC Converters
+        - unit 4 DC to DC Converters
+        - unit 5 Power Devices Protection and Circuits
+        - unit 6 Power Electronics Applications
+
+      - 304195 Advanced JAVA Programming:
+        - unit 1 Applet
+        - unit 2 Event Handling using AWT/Swing components
+        - unit 3 GUI Programming
+        - unit 4 Database Programming using JDBC
+        - unit 5 Remote Method Invocation (RMI)
+        - unit 6 Networking
+
+    - 7:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 8:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+  - CIVIL:
+    - 1:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 2:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 3:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 4:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 5:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 6:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 7:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 8:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+  - ELEC:
+    - 1:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 2:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 3:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 4:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 5:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 6:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 7:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+    - 8:
+      - subject_1:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+      - subject_2:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_3:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_4:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+      - subject_5:
+        - unit_1
+        - unit_2
+        - unit_3
+        - unit_4
+        - unit_5
+        - unit_6
+
+
+sem_even:
+  - 2
+  - 4
+  - 6
+  - 8
+
+sem_odd:
+  - 1
+  - 3
+  - 5
+  - 7
+
+
+
+
+
+
+
+
