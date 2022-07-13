@@ -2,6 +2,7 @@ courses:
     - name: ENTC
       semister:
         - number: 1
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -130,6 +131,7 @@ courses:
                   name: unit_name_6
             
         - number: 2
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -258,6 +260,7 @@ courses:
                   name: unit_name_6
             
         - number: 3
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -386,6 +389,7 @@ courses:
                   name: unit_name_6
             
         - number: 4
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -514,6 +518,7 @@ courses:
                   name: unit_name_6
             
         - number: 5
+          status: activated
           subject:
             - name: Digital Communication
               code: 304181
@@ -621,6 +626,7 @@ courses:
                   name: Graphics Programming and File Handling
 
         - number: 6
+          status: activated
           subject:
             - name: Cellular Networks
               code: 304192
@@ -707,6 +713,7 @@ courses:
                   name: Networking
             
         - number: 7
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -835,6 +842,7 @@ courses:
                   name: unit_name_6
             
         - number: 8
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -965,6 +973,7 @@ courses:
     - name: COMP
       semister:
         - number: 1
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -1093,6 +1102,7 @@ courses:
                   name: unit_name_6
             
         - number: 2
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -1221,6 +1231,7 @@ courses:
                   name: unit_name_6
             
         - number: 3
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -1349,6 +1360,7 @@ courses:
                   name: unit_name_6
             
         - number: 4
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -1477,6 +1489,7 @@ courses:
                   name: unit_name_6
             
         - number: 5
+          status: deactivated
           subject:
             - name: Digital Communication
               code: 304181
@@ -1584,6 +1597,7 @@ courses:
                   name: Graphics Programming and File Handling
 
         - number: 6
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -1712,6 +1726,7 @@ courses:
                   name: unit_name_6
             
         - number: 7
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -1840,6 +1855,7 @@ courses:
                   name: unit_name_6
             
         - number: 8
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -1970,6 +1986,7 @@ courses:
     - name: MECH
       semister:
         - number: 1
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -2098,6 +2115,7 @@ courses:
                   name: unit_name_6
             
         - number: 2
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -2226,6 +2244,7 @@ courses:
                   name: unit_name_6
             
         - number: 3
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -2354,6 +2373,7 @@ courses:
                   name: unit_name_6
             
         - number: 4
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -2482,6 +2502,7 @@ courses:
                   name: unit_name_6
             
         - number: 5
+          status: deactivated
           subject:
             - name: Digital Communication
               code: 304181
@@ -2589,6 +2610,7 @@ courses:
                   name: Graphics Programming and File Handling
 
         - number: 6
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -2717,6 +2739,7 @@ courses:
                   name: unit_name_6
             
         - number: 7
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -2845,6 +2868,7 @@ courses:
                   name: unit_name_6
             
         - number: 8
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -2975,6 +2999,7 @@ courses:
     - name: CIVIL
       semister:
         - number: 1
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -3103,6 +3128,7 @@ courses:
                   name: unit_name_6
             
         - number: 2
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -3231,6 +3257,7 @@ courses:
                   name: unit_name_6
             
         - number: 3
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -3359,6 +3386,7 @@ courses:
                   name: unit_name_6
             
         - number: 4
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -3487,6 +3515,7 @@ courses:
                   name: unit_name_6
             
         - number: 5
+          status: deactivated
           subject:
             - name: Digital Communication
               code: 304181
@@ -3594,6 +3623,7 @@ courses:
                   name: Graphics Programming and File Handling
 
         - number: 6
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -3722,6 +3752,7 @@ courses:
                   name: unit_name_6
             
         - number: 7
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -3850,6 +3881,7 @@ courses:
                   name: unit_name_6
             
         - number: 8
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -3980,6 +4012,7 @@ courses:
     - name: ELEC
       semister:
         - number: 1
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -4108,6 +4141,7 @@ courses:
                   name: unit_name_6
             
         - number: 2
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -4236,6 +4270,7 @@ courses:
                   name: unit_name_6
             
         - number: 3
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -4364,6 +4399,7 @@ courses:
                   name: unit_name_6
             
         - number: 4
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -4492,6 +4528,7 @@ courses:
                   name: unit_name_6
             
         - number: 5
+          status: deactivated
           subject:
             - name: Digital Communication
               code: 304181
@@ -4599,6 +4636,7 @@ courses:
                   name: Graphics Programming and File Handling
 
         - number: 6
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -4727,6 +4765,7 @@ courses:
                   name: unit_name_6
             
         - number: 7
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code
@@ -4855,6 +4894,7 @@ courses:
                   name: unit_name_6
             
         - number: 8
+          status: deactivated
           subject:
             - name: subject_name_1
               code: subject_code

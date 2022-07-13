@@ -1,0 +1,35 @@
+<ul>
+    {% for course in site.data.directory_structure.courses %}
+        {% if course.name == "ENTC" %}
+            <li>
+            {{ course.name }} 
+                <ul>
+                    {% for sem in course.semister %}
+                        {% if sem.number == 5 or sem.number == 6 %}
+                            <li>
+                                semister {{ sem.number }} 
+                                
+                                <ul>
+                                    {% for sub in sem.subject %}
+                                        <li>
+                                            {{ sub.name }} {{sub.code}} 
+
+                                            <ul>
+                                                {% for unit in sub.units %}
+                                                    <li>
+                                                        {{ unit.number }}) {{ unit.name }} 
+                                                    </li>
+                                                {% endfor %} 
+                                            </ul>
+                                        </li>
+                                    {% endfor %} 
+                                </ul>
+                            </li>
+                        {% endif %}
+                    {% endfor %} 
+                </ul>
+            </li> 
+        {% endif %}
+
+    {% endfor %}
+</ul>

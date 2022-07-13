@@ -19,6 +19,8 @@ kramdown:
   input: GFM
 
 baseurl: "/easynotes"
+#baseurl: ""
+
 url: "https://pawar41.github.io"
 
 #--------------------------------------------------------------------------

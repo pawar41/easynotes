@@ -1,0 +1,63 @@
+{% include appendix_style.html %}
+
+<div class="block-container appendix-container appendix">
+    {% for course in site.data.directory_structure.courses %}
+        <div class="block-container dropdown-parent dropdown-parent-{{ course.name }}">
+
+            <label class="dropdown-reciever-magnet" for="checkbox-reciever-{{ course.name }}">
+                <h3 class="course-name"> {{ course.name }} </h3>
+            </label>
+
+            <input type="checkbox" id="checkbox-reciever-{{ course.name }}" />
+            <div class="dropdown-content dropdown-content-{{ course.name }}">
+                
+                <div class="block-container appendix-container appendix-container-parent">
+                    {% for sem in course.semister %}  <!-- sem.number -->
+                        {% if sem.status == "activated" %}
+                        
+                            <div class="block-container dropdown-parent dropdown-parent-{{ course.name }}-{{sem.number}}">
+
+                                <label class="dropdown-reciever-magnet" for="checkbox-reciever-{{ course.name }}-{{ sem.number }}">
+                                    <span class="semister-number"> Semister {{ sem.number }} </span>
+                                </label>
+
+                                <input type="checkbox" id="checkbox-reciever-{{ course.name }}-{{ sem.number }}" />
+                                <div class="dropdown-content dropdown-content-{{ course.name }}-{{ sem.number }}"> 
+
+                                                <div class="block-container">
+                                                    {% for sub in sem.subject %} <!-- sub.name sub.code -->
+                                                        <div class="subject-title"> <a href=""> {{sub.name}} {{sub.code}} </a> </div>
+                                                        <!--
+                                                        <div class="block-container dropdown-parent dropdown-parent-{{ course.name }}-{{sem.number}}-{{sub.code}}">
+                                                            
+                                                            
+                                                            
+                                                            <label class="dropdown-reciever-magnet" for="checkbox-reciever-{{ course.name }}-{{ sem.number }}-{{sub.code}}">
+                                                                <span class="subject-title"> {{sub.name}} {{sub.code}} </span>
+                                                            </label>
+                                                            
+                                                            <input type="checkbox" id="checkbox-reciever-{{ course.name }}-{{ sem.number }}-{{sub.code}}" />
+                                                            <div class="dropdown-content dropdown-content-{{ course.name }}-{{ sem.number }}-{{sub.code}}"> 
+
+
+                                                                content 1 <br>
+                                                                content 2
+
+
+                                                            
+                                                            </div> 
+                                                        </div>
+                                                        -->
+                                                    {% endfor %}
+                                                </div>
+                                
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    
+    {% endfor %}
+</div>
