@@ -1,0 +1,32 @@
+{% for course in site.data.directory_structure.courses %}
+#checkbox-reciever-{{ course.name }} {
+    visibility: hidden;
+}
+
+#checkbox-reciever-{{ course.name }}[type=checkbox]:checked ~ .dropdown-content-{{ course.name }} {
+    display: block;
+}
+
+.dropdown-content-{{ course.name }} {
+    display: none;
+    width: 100%;
+}
+
+{% for sem in course.semister %}
+
+    #checkbox-reciever-{{ course.name }}-{{ sem.number }} {
+        visibility: hidden;
+    }
+
+    #checkbox-reciever-{{ course.name }}-{{ sem.number }}[type=checkbox]:checked ~ .dropdown-content-{{ course.name }}-{{ sem.number }} {
+        display: block;
+    }
+
+    .dropdown-content-{{ course.name }}-{{ sem.number }} {
+        display: none;
+        width: 100%;
+    }
+
+{% endfor %}
+
+{% endfor %}
