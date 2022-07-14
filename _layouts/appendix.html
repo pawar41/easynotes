@@ -1,5 +1,7 @@
 ---
 title: page.title
+
+appendix_title_appendix: {{page.appendix_title_appendix}}
 ---
 <!DOCTYPE HTML>
 
@@ -9,11 +11,23 @@ title: page.title
 		<div id="page-wrapper">
 			{% include header.html %}
 		
-			{{content}}
-
+			<section id="main">
+				<div class="container">
+					<div class="row">
 			
+						
+							<div id="content" class="col-8 col-12-medium">
+								<h2> {{page.appendix_title_appendix}} </h2>
+								{% include appendix_subject.html %}
+								
+							</div>
+					</div>
+				</div>
 
-			{% include appendix_subject.html %}
+				
+			
+			</section>
+			{% include footer.html %}
 		</div>
 	</body>
 </html>

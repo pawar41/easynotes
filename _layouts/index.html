@@ -1,5 +1,8 @@
 ---
 title: page.title
+
+showcase_title: {{ page.showcase_title}}
+appendix_title_index: {{page.appendix_title_index}}
 ---
 <!DOCTYPE HTML>
 
@@ -7,7 +10,14 @@ title: page.title
 	{% include head.html %}
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
+			
 			{% include header.html %}
+
+			{% include section_trending_subjects.html %}
+
+			{% include section_appendix.html %}
+			
+			{% include footer.html %}
 		</div>
 	</body>
 </html>
