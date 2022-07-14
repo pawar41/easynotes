@@ -1,0 +1,24 @@
+---
+layout: none
+title: "home page"
+---
+<div>
+{% highlight shell %}
+{% assign parent_dir = "blogs" %}
+mkdir -p -v {{parent_dir}}
+{% for course in site.data.directory_structure.courses %}
+mkdir -p -v {{parent_dir}}/{{course.name}}
+{% for sem in course.semister %}
+{% if sem.status == "activated" %}
+mkdir -p -v {{parent_dir}}/{{course.name}}/sem_{{sem.number }} 
+{% for sub in sem.subject %}
+mkdir -p -v {{parent_dir}}/{{course.name}}/sem_{{sem.number }}/{{sub.code}}
+{% for unit in sub.units %}
+mkdir -p -v {{parent_dir}}/{{course.name}}/sem_{{sem.number }}/{{sub.code}}/unit_{{unit.number}}/
+{% endfor %} 
+{% endfor %} 
+{% endif %}
+{% endfor %} 
+{% endfor %}
+{% endhighlight %}
+</div>
