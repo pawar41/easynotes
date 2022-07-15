@@ -38,3 +38,6 @@ street_address_l4: "Maharashtra <br/>"
 street_address_l5: "India - 411028"
 
 exclude: [/tmp_temp/]
+
+parent_blog_dir: "/blogs"
+baseurl_plain: "easynotes"
