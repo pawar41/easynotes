@@ -54,7 +54,7 @@ subtopics:
 
 {% for units in all_units_data.units %}
 {% if units.number != page.unit_data %}
-<a href="{{site.baseurl}}{% link blogs/{{page.course_data}}/{{page.semister_data}}/{{page.course_code_data}}/{{page.unit_data}}/index.md %}" markdown="1" > **Unit {{units.number}}** : {{units.name}} </a>
+<a href="{{site.url}}{{ site.baseurl }}{{site.parent_blog_dir}}/{{page.course_data}}/{{page.semister_data}}/{{page.course_code_data}}/{{page.unit_data}}/ " markdown="1" > **Unit {{units.number}}** : {{units.name}} </a>
 {% endif %}
 {% endfor %}
 
