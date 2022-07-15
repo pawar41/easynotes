@@ -1,0 +1,1319 @@
+<div>
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs
+
+<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC
+
+
+
+
+
+
+
+
+
+
+<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5 
+
+<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304181
+
+<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304181/1/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304181/1/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304181/1/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304181/1/index.md
+    <span class="c"># touch blogs/ENTC/5/304181/1/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/1/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/1/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/1/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304181/1/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/1/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/1/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304181'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/1/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 1'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/1/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/1/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304181/2/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304181/2/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304181/2/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304181/2/index.md
+    <span class="c"># touch blogs/ENTC/5/304181/2/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/2/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/2/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/2/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304181/2/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/2/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/2/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304181'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/2/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 2'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/2/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/2/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304181/3/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304181/3/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304181/3/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304181/3/index.md
+    <span class="c"># touch blogs/ENTC/5/304181/3/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/3/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/3/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/3/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304181/3/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/3/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/3/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304181'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/3/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 3'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/3/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/3/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304181/4/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304181/4/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304181/4/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304181/4/index.md
+    <span class="c"># touch blogs/ENTC/5/304181/4/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/4/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/4/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/4/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304181/4/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/4/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/4/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304181'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/4/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 4'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/4/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/4/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304181/5/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304181/5/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304181/5/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304181/5/index.md
+    <span class="c"># touch blogs/ENTC/5/304181/5/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/5/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/5/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/5/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304181/5/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/5/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/5/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304181'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/5/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/5/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/5/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304181/6/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304181/6/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304181/6/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304181/6/index.md
+    <span class="c"># touch blogs/ENTC/5/304181/6/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/6/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/6/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/6/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304181/6/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/6/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/6/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304181'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/6/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/6/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304181/6/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+ 
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304182
+
+<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304182/1/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304182/1/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304182/1/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304182/1/index.md
+    <span class="c"># touch blogs/ENTC/5/304182/1/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/1/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/1/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/1/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304182/1/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/1/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/1/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304182'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/1/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 1'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/1/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/1/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304182/2/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304182/2/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304182/2/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304182/2/index.md
+    <span class="c"># touch blogs/ENTC/5/304182/2/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/2/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/2/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/2/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304182/2/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/2/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/2/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304182'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/2/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 2'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/2/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/2/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304182/3/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304182/3/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304182/3/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304182/3/index.md
+    <span class="c"># touch blogs/ENTC/5/304182/3/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/3/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/3/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/3/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304182/3/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/3/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/3/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304182'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/3/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 3'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/3/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/3/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304182/4/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304182/4/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304182/4/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304182/4/index.md
+    <span class="c"># touch blogs/ENTC/5/304182/4/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/4/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/4/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/4/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304182/4/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/4/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/4/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304182'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/4/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 4'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/4/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/4/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304182/5/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304182/5/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304182/5/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304182/5/index.md
+    <span class="c"># touch blogs/ENTC/5/304182/5/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/5/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/5/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/5/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304182/5/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/5/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/5/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304182'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/5/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/5/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/5/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304182/6/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304182/6/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304182/6/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304182/6/index.md
+    <span class="c"># touch blogs/ENTC/5/304182/6/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/6/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/6/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/6/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304182/6/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/6/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/6/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304182'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/6/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/6/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304182/6/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+ 
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304183
+
+<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304183/1/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304183/1/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304183/1/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304183/1/index.md
+    <span class="c"># touch blogs/ENTC/5/304183/1/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/1/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/1/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/1/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304183/1/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/1/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/1/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304183'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/1/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 1'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/1/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/1/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304183/2/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304183/2/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304183/2/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304183/2/index.md
+    <span class="c"># touch blogs/ENTC/5/304183/2/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/2/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/2/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/2/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304183/2/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/2/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/2/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304183'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/2/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 2'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/2/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/2/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304183/3/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304183/3/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304183/3/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304183/3/index.md
+    <span class="c"># touch blogs/ENTC/5/304183/3/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/3/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/3/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/3/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304183/3/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/3/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/3/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304183'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/3/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 3'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/3/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/3/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304183/4/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304183/4/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304183/4/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304183/4/index.md
+    <span class="c"># touch blogs/ENTC/5/304183/4/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/4/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/4/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/4/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304183/4/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/4/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/4/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304183'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/4/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 4'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/4/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/4/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304183/5/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304183/5/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304183/5/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304183/5/index.md
+    <span class="c"># touch blogs/ENTC/5/304183/5/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/5/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/5/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/5/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304183/5/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/5/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/5/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304183'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/5/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/5/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/5/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304183/6/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304183/6/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304183/6/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304183/6/index.md
+    <span class="c"># touch blogs/ENTC/5/304183/6/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/6/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/6/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/6/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304183/6/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/6/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/6/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304183'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/6/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/6/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304183/6/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+ 
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304184
+
+<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304184/1/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304184/1/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304184/1/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304184/1/index.md
+    <span class="c"># touch blogs/ENTC/5/304184/1/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/1/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/1/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/1/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304184/1/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/1/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/1/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304184'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/1/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 1'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/1/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/1/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304184/2/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304184/2/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304184/2/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304184/2/index.md
+    <span class="c"># touch blogs/ENTC/5/304184/2/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/2/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/2/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/2/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304184/2/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/2/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/2/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304184'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/2/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 2'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/2/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/2/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304184/3/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304184/3/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304184/3/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304184/3/index.md
+    <span class="c"># touch blogs/ENTC/5/304184/3/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/3/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/3/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/3/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304184/3/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/3/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/3/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304184'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/3/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 3'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/3/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/3/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304184/4/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304184/4/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304184/4/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304184/4/index.md
+    <span class="c"># touch blogs/ENTC/5/304184/4/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/4/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/4/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/4/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304184/4/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/4/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/4/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304184'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/4/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 4'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/4/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/4/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304184/5/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304184/5/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304184/5/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304184/5/index.md
+    <span class="c"># touch blogs/ENTC/5/304184/5/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/5/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/5/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/5/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304184/5/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/5/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/5/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304184'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/5/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/5/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/5/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304184/6/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304184/6/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304184/6/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304184/6/index.md
+    <span class="c"># touch blogs/ENTC/5/304184/6/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/6/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/6/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/6/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304184/6/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/6/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/6/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304184'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/6/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/6/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304184/6/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+ 
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304185
+
+<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304185/1/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304185/1/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304185/1/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304185/1/index.md
+    <span class="c"># touch blogs/ENTC/5/304185/1/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/1/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/1/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/1/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304185/1/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/1/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/1/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304185'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/1/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 1'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/1/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/1/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304185/2/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304185/2/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304185/2/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304185/2/index.md
+    <span class="c"># touch blogs/ENTC/5/304185/2/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/2/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/2/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/2/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304185/2/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/2/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/2/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304185'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/2/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 2'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/2/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/2/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304185/3/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304185/3/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304185/3/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304185/3/index.md
+    <span class="c"># touch blogs/ENTC/5/304185/3/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/3/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/3/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/3/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304185/3/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/3/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/3/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304185'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/3/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 3'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/3/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/3/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304185/4/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304185/4/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304185/4/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304185/4/index.md
+    <span class="c"># touch blogs/ENTC/5/304185/4/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/4/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/4/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/4/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304185/4/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/4/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/4/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304185'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/4/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 4'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/4/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/4/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304185/5/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304185/5/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304185/5/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304185/5/index.md
+    <span class="c"># touch blogs/ENTC/5/304185/5/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/5/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/5/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/5/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304185/5/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/5/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/5/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304185'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/5/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/5/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/5/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/5/304185/6/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/5/304185/6/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/5/304185/6/"</span>
+    <span class="nb">touch </span>blogs/ENTC/5/304185/6/index.md
+    <span class="c"># touch blogs/ENTC/5/304185/6/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/6/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/6/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/6/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/5/304185/6/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/6/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/6/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304185'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/6/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/6/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/5/304185/6/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+ 
+ 
+
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6 
+
+<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304192
+
+<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304192/1/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304192/1/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304192/1/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304192/1/index.md
+    <span class="c"># touch blogs/ENTC/6/304192/1/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/1/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/1/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/1/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304192/1/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/1/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/1/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304192'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/1/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 1'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/1/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/1/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304192/2/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304192/2/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304192/2/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304192/2/index.md
+    <span class="c"># touch blogs/ENTC/6/304192/2/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/2/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/2/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/2/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304192/2/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/2/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/2/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304192'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/2/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 2'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/2/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/2/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304192/3/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304192/3/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304192/3/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304192/3/index.md
+    <span class="c"># touch blogs/ENTC/6/304192/3/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/3/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/3/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/3/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304192/3/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/3/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/3/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304192'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/3/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 3'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/3/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/3/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304192/4/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304192/4/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304192/4/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304192/4/index.md
+    <span class="c"># touch blogs/ENTC/6/304192/4/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/4/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/4/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/4/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304192/4/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/4/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/4/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304192'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/4/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 4'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/4/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/4/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304192/5/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304192/5/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304192/5/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304192/5/index.md
+    <span class="c"># touch blogs/ENTC/6/304192/5/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/5/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/5/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/5/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304192/5/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/5/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/5/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304192'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/5/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/5/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/5/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304192/6/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304192/6/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304192/6/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304192/6/index.md
+    <span class="c"># touch blogs/ENTC/6/304192/6/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/6/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/6/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/6/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304192/6/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/6/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/6/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304192'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/6/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/6/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304192/6/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+ 
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304193
+
+<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304193/1/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304193/1/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304193/1/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304193/1/index.md
+    <span class="c"># touch blogs/ENTC/6/304193/1/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/1/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/1/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/1/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304193/1/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/1/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/1/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304193'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/1/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 1'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/1/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/1/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304193/2/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304193/2/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304193/2/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304193/2/index.md
+    <span class="c"># touch blogs/ENTC/6/304193/2/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/2/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/2/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/2/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304193/2/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/2/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/2/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304193'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/2/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 2'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/2/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/2/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304193/3/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304193/3/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304193/3/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304193/3/index.md
+    <span class="c"># touch blogs/ENTC/6/304193/3/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/3/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/3/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/3/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304193/3/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/3/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/3/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304193'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/3/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 3'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/3/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/3/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304193/4/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304193/4/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304193/4/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304193/4/index.md
+    <span class="c"># touch blogs/ENTC/6/304193/4/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/4/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/4/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/4/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304193/4/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/4/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/4/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304193'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/4/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 4'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/4/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/4/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304193/5/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304193/5/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304193/5/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304193/5/index.md
+    <span class="c"># touch blogs/ENTC/6/304193/5/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/5/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/5/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/5/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304193/5/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/5/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/5/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304193'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/5/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/5/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/5/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304193/6/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304193/6/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304193/6/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304193/6/index.md
+    <span class="c"># touch blogs/ENTC/6/304193/6/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/6/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/6/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/6/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304193/6/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/6/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/6/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304193'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/6/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/6/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304193/6/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+ 
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304194
+
+<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304194/1/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304194/1/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304194/1/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304194/1/index.md
+    <span class="c"># touch blogs/ENTC/6/304194/1/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/1/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/1/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/1/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304194/1/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/1/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/1/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304194'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/1/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 1'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/1/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/1/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304194/2/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304194/2/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304194/2/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304194/2/index.md
+    <span class="c"># touch blogs/ENTC/6/304194/2/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/2/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/2/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/2/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304194/2/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/2/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/2/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304194'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/2/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 2'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/2/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/2/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304194/3/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304194/3/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304194/3/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304194/3/index.md
+    <span class="c"># touch blogs/ENTC/6/304194/3/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/3/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/3/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/3/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304194/3/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/3/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/3/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304194'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/3/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 3'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/3/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/3/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304194/4/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304194/4/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304194/4/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304194/4/index.md
+    <span class="c"># touch blogs/ENTC/6/304194/4/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/4/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/4/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/4/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304194/4/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/4/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/4/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304194'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/4/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 4'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/4/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/4/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304194/5/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304194/5/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304194/5/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304194/5/index.md
+    <span class="c"># touch blogs/ENTC/6/304194/5/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/5/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/5/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/5/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304194/5/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/5/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/5/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304194'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/5/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/5/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/5/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304194/6/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304194/6/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304194/6/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304194/6/index.md
+    <span class="c"># touch blogs/ENTC/6/304194/6/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/6/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/6/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/6/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304194/6/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/6/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/6/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304194'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/6/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/6/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304194/6/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+ 
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304195
+
+<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304195/1/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304195/1/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304195/1/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304195/1/index.md
+    <span class="c"># touch blogs/ENTC/6/304195/1/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/1/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/1/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/1/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304195/1/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/1/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/1/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304195'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/1/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 1'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/1/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/1/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304195/2/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304195/2/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304195/2/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304195/2/index.md
+    <span class="c"># touch blogs/ENTC/6/304195/2/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/2/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/2/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/2/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304195/2/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/2/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/2/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304195'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/2/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 2'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/2/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/2/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304195/3/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304195/3/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304195/3/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304195/3/index.md
+    <span class="c"># touch blogs/ENTC/6/304195/3/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/3/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/3/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/3/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304195/3/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/3/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/3/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304195'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/3/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 3'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/3/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/3/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304195/4/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304195/4/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304195/4/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304195/4/index.md
+    <span class="c"># touch blogs/ENTC/6/304195/4/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/4/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/4/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/4/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304195/4/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/4/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/4/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304195'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/4/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 4'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/4/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/4/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304195/5/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304195/5/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304195/5/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304195/5/index.md
+    <span class="c"># touch blogs/ENTC/6/304195/5/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/5/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/5/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/5/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304195/5/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/5/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/5/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304195'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/5/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 5'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/5/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/5/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ENTC/6/304195/6/
+
+<span class="k">if</span> <span class="o">[</span> <span class="nt">-z</span> <span class="s2">"</span><span class="si">$(</span><span class="nb">ls</span> <span class="nt">-A</span> blogs/ENTC/6/304195/6/ <span class="si">)</span><span class="s2">"</span> <span class="o">]</span><span class="p">;</span> <span class="k">then
+    </span><span class="nb">echo</span> <span class="s2">"Empty blogs/ENTC/6/304195/6/"</span>
+    <span class="nb">touch </span>blogs/ENTC/6/304195/6/index.md
+    <span class="c"># touch blogs/ENTC/6/304195/6/data.md</span>
+
+    <span class="nb">echo</span> <span class="s1">'---'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/6/index.md
+    <span class="nb">echo</span> <span class="s1">' '</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/6/index.md
+    <span class="nb">echo</span> <span class="s1">'layout: blog'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/6/index.md
+    <span class="nb">echo</span> <span class="s1">''</span> <span class="o">&gt;&gt;</span> <span class="o">{</span>parent_dir<span class="o">}}</span>/ENTC/6/304195/6/index.md
+    <span class="nb">echo</span> <span class="s1">'course_data: ENTC'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/6/index.md
+    <span class="nb">echo</span> <span class="s1">'semister_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/6/index.md
+    <span class="nb">echo</span> <span class="s1">'course_code_data: 304195'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/6/index.md
+    <span class="nb">echo</span> <span class="s1">'unit_data: 6'</span> <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/6/index.md
+
+    <span class="nb">cat </span>tmp_temp/reference_blog.md <span class="o">&gt;&gt;</span> blogs/ENTC/6/304195/6/index.md
+<span class="k">else
+    </span><span class="nb">echo</span> <span class="s2">"Not Empty"</span>
+<span class="k">fi
+
+ 
+ 
+
+
+
+
+
+ 
+
+</span><span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/COMP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/MECH
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/CIVIL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+<span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nt">-v</span> blogs/ELEC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </code></pre></figure>
+</div>
