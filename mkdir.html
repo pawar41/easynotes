@@ -19,15 +19,18 @@ mkdir -p -v {{parent_dir}}/{{course.name}}/{{sem.number }}/{{sub.code}}/{{unit.n
 if [ -z "$(ls -A {{parent_dir}}/{{course.name}}/{{sem.number }}/{{sub.code}}/{{unit.number}}/ )" ]; then
     echo "Empty {{parent_dir}}/{{course.name}}/{{sem.number }}/{{sub.code}}/{{unit.number}}/"
     touch {{parent_dir}}/{{course.name}}/{{sem.number }}/{{sub.code}}/{{unit.number}}/index.md
+    # touch {{parent_dir}}/{{course.name}}/{{sem.number }}/{{sub.code}}/{{unit.number}}/data.md
 
     echo '---' >> {{parent_dir}}/{{course.name}}/{{sem.number }}/{{sub.code}}/{{unit.number}}/index.md
     echo ' ' >> {{parent_dir}}/{{course.name}}/{{sem.number }}/{{sub.code}}/{{unit.number}}/index.md
     echo 'layout: blog' >> {{parent_dir}}/{{course.name}}/{{sem.number }}/{{sub.code}}/{{unit.number}}/index.md
+    echo '' >> {parent_dir}}/{{course.name}}/{{sem.number }}/{{sub.code}}/{{unit.number}}/index.md
     echo 'course_data: {{course.name}}' >> {{parent_dir}}/{{course.name}}/{{sem.number }}/{{sub.code}}/{{unit.number}}/index.md
     echo 'semister_data: {{sem.number }}' >> {{parent_dir}}/{{course.name}}/{{sem.number }}/{{sub.code}}/{{unit.number}}/index.md
     echo 'course_code_data: {{sub.code}}' >> {{parent_dir}}/{{course.name}}/{{sem.number }}/{{sub.code}}/{{unit.number}}/index.md
     echo 'unit_data: {{unit.number}}' >> {{parent_dir}}/{{course.name}}/{{sem.number }}/{{sub.code}}/{{unit.number}}/index.md
-    echo '---' >> {{parent_dir}}/{{course.name}}/{{sem.number }}/{{sub.code}}/{{unit.number}}/index.md
+
+    cat tmp_temp/reference_blog.md >> {{parent_dir}}/{{course.name}}/{{sem.number }}/{{sub.code}}/{{unit.number}}/index.md
 else
     echo "Not Empty"
 fi

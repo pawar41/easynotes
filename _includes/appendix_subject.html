@@ -25,7 +25,7 @@
 
                                                 <div class="block-container">
                                                     {% for sub in sem.subject %} <!-- sub.name sub.code -->
-                                                        <div class="subject-title"> <a href=""> {{sub.name}} {{sub.code}} </a> </div>
+                                                        <div class="subject-title"> <a href="{{ site.baseurl }}/{% link blogs/{{course.name}}/{{sem.number }}/{{sub.code}}/{{sub.units[0].number}}/index.md %}" > {{sub.name}} {{sub.code}} </a> </div>
                                                         <!--
                                                         <div class="block-container dropdown-parent dropdown-parent-{{ course.name }}-{{sem.number}}-{{sub.code}}">
                                                             

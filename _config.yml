@@ -36,3 +36,5 @@ street_address_l2: "Gate No. 5, Nr. Serum Company, <br />"
 street_address_l3: "Hadapsar, Pune <br />" 
 street_address_l4: "Maharashtra <br/>"
 street_address_l5: "India - 411028"
+
+exclude: [/tmp_temp/]
